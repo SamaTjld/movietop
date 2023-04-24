@@ -1,0 +1,38 @@
+.movie {
+  box-shadow: 5px 5px 15px rgb(249, 248, 248);
+  width: 230px;
+  background-color: var(--secondary-color);
+  margin: 1rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.movie .poster {
+  width: 250px;
+  height: 250px;
+}
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.link {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputText {
+  height: 30px;
+  width: 160px;
+}
+.btn_search {
+  height: 36px;
+  width: 40px;
+}

@@ -1,0 +1,71 @@
+.logo_cont {
+  background-image: url("https://img.freepik.com/free-vector/red-fire-sparks-overlay-effect-burning-campfire_107791-13792.jpg?w=1380&t=st=1681980938~exp=1681981538~hmac=492082c8461f9a2ad87ce3a3477f465e84f020da3b952797ce8b4d69b4fbb0e1");
+}
+
+li {
+  list-style: none;
+}
+.logo {
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  width: 700px;
+  font-size: 25px;
+  box-shadow: 5px 5px 15px rgb(239, 253, 236);
+  border-radius: 10% 30% 50% 50%;
+}
+.logo1 {
+  display: flex;
+  color: rgba(252, 255, 60, 0.858);
+  text-shadow: 1px 1px 5px red, 0 0 1em rgb(253, 49, 42),
+    0 0 0.2em rgb(244, 54, 54);
+}
+.logo2 {
+  display: flex;
+  color: rgba(94, 255, 7, 0.981);
+}
+
+.nav_link {
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  width: 700px;
+  font-size: 25px;
+  box-shadow: 5px 5px 15px rgb(227, 23, 23);
+  border-radius: 10% 30% 50% 50%;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.nav-list__link {
+  color: rgb(246, 246, 246);
+  transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+  opacity: 0.8;
+}
+
+.nav-list__link--active {
+  position: relative;
+}
+
+.nav-list__link--active::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: 100%;
+
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+}
